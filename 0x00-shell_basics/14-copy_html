@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -ru --parents *.html ..
+cp *.html ../
