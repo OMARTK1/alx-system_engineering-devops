@@ -1,5 +1,3 @@
 #!/bin/bash
-result=$(bc <<< "ibase=${#WATER}
-obase=${#WATER}
-$WATER + $STIR")
-echo "$result"
+result=$(printf "%${#WATER}d" $((#${WATER}))+$((#${STIR})))
+printf "%s\n" "${result// /}"
