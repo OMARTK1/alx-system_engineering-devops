@@ -1,0 +1,5 @@
+#!/bin/bash
+TRUEKNOWLEDGE=1209
+NUM2=128
+SUM=$((TRUEKNOWLEDGE + NUM2))
+echo "$SUM"

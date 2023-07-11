@@ -1,0 +1,4 @@
+NUM1=BREATH
+NUM=LOVE
+SUM=$((BREATH**LOVE))
+echo "$SUM"

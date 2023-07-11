@@ -1,0 +1,5 @@
+#!/bin/bash
+NUM1=POWER
+NUM2=DIVIDE
+SUM=$((POWER/DIVIDE))
+echo "$SUM"
