@@ -1,4 +1,2 @@
-NUM1=BREATH
-NUM=LOVE
-SUM=$((BREATH**LOVE))
-echo "$SUM"
+#!/bin/bash
+echo $(($BREATH ** $LOVE))
