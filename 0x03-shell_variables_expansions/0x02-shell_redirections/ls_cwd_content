@@ -1,0 +1,33 @@
+total 120
+drwxr-xr-x 2 root root 4096 Jul 10 14:14 .
+drwxr-xr-x 6 root root  142 Jul 10 00:57 ..
+-rwxr-xr-x 1 root root   32 Jul 10 00:39 0-hello_world
+-rwxr-xr-x 1 root root   41 Jul 10 04:23 100-empty_casks
+-rwxr-xr-x 1 root root  109 Jul 10 14:14 101-gifs
+-rwxr-xr-x 1 root root   48 Jul 10 02:33 10-no_more_js
+-rwxr-xr-x 1 root root   63 Jul 10 02:55 11-directories
+-rwxr-xr-x 1 root root   31 Jul 10 03:07 12-newest_files
+-rwxr-xr-x 1 root root   27 Jul 10 03:15 13-unique
+-rwxr-xr-x 1 root root   36 Jul 10 03:21 14-findthatword
+-rwxr-xr-x 1 root root   43 Jul 10 03:27 15-countthatword
+-rwxr-xr-x 1 root root   40 Jul 10 03:36 16-whatsnext
+-rwxr-xr-x 1 root root   38 Jul 10 03:41 17-hidethisword
+-rwxr-xr-x 1 root root   53 Jul 10 03:53 18-letteronly
+-rwxr-xr-x 1 root root   25 Jul 10 04:05 19-AZ
+-rwxr-xr-x 1 root root   28 Jul 10 00:46 1-confused_smiley
+-rwxr-xr-x 1 root root   21 Jul 10 04:09 20-hiago
+-rwxr-xr-x 1 root root   16 Jul 10 04:12 21-reverse
+-rwxr-xr-x 1 root root   48 Jul 10 04:18 22-users_and_homes
+-rwxr-xr-x 1 root root   28 Jul 10 00:52 2-hellofile
+-rwxr-xr-x 1 root root   39 Jul 10 01:08 3-twofiles
+-rwxr-xr-x 1 root root   29 Jul 10 01:13 4-lastlines
+-rwxr-xr-x 1 root root   29 Jul 10 01:15 5-firstlines
+-rwxr-xr-x 1 root root   40 Jul 10 01:28 6-third_line
+-rwxr-xr-x 1 root root   78 Jul 10 01:48 7-file
+-rwxr-xr-x 1 root root   36 Jul 10 01:59 8-cwd_state
+-rwxr-xr-x 1 root root   37 Jul 10 02:26 9-duplicate_last_line
+-rw-r--r-- 1 root root   12 Jul 10 01:49 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+-rwxr-xr-x 1 root root  103 Jul 10 00:59 commit_faster
+-rw-r--r-- 1 root root 1081 Jul 10 02:28 iacta
+-rw-r--r-- 1 root root    0 Jul 10 14:20 ls_cwd_content
+-rw-r--r-- 1 root root   35 Jul  9 23:28 README.md
