@@ -1,12 +1,2 @@
 #!/usr/bin/env bash
-# Start Apache and configure to return "Hello Holberton" when querying the root
-
-# Install Apache if not already installed
-apt-get update
-apt-get install -y apache2
-
-# Echo the ServerName directive to the Apache configuration file
-echo "ServerName localhost" >> /etc/apache2/apache2.conf
-
-# Start Apache service
-service apache2 start
+sudo service apache2 start
