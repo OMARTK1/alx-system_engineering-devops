@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Install nginx
 apt-get update
 apt-get install -y nginx
@@ -11,7 +10,8 @@ sed -i 's/80 default_server/80 default_server;/' /etc/nginx/sites-available/defa
 service nginx restart
 
 # Verify nginx is running and serving the expected content
-if curl -s localhost | grep -q "Hello World!"; then
+response=$(curl -s localhost)
+if [[ $response == *"Hello World!"* ]]; then
     echo "Nginx installation and configuration successful!"
 else
     echo "Error: Nginx installation or configuration failed."
