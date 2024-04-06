@@ -1,1 +1,1 @@
-This repository is about 0x00-shell_basics task
+Readme file for 0x10-https_ssl
