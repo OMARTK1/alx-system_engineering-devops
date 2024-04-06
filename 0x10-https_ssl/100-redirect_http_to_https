@@ -1,0 +1,15 @@
+# HAProxy configuration to redirect HTTP traffic to HTTPS
+
+frontend http_front
+    bind *:80
+    redirect scheme https code 301 if !{ ssl_fc }
+
+frontend https_front
+    bind *:443 ssl crt /etc/ssl/myfoobar.tech
+    mode http
+    default_backend http_back
+
+backend http_back
+    mode http
+    server web-01 100.26.18.191:80 check
+    server web-02 100.25.110.167:80 check
