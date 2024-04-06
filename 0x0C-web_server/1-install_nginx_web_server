@@ -1,18 +1,7 @@
 #!/usr/bin/env bash
-# Install nginx
+# To install nginx server
 apt-get update
-apt-get install -y nginx
-
-# Configure nginx to listen on port 80
-sed -i 's/80 default_server/80 default_server;/' /etc/nginx/sites-available/default
-
-# Restart nginx (without using systemctl)
-service nginx restart
-
-# Verify nginx is running and serving the expected content
-response=$(curl -s localhost)
-if [[ $response == *"Hello World!"* ]]; then
-    echo "Nginx installation and configuration successful!"
-else
-    echo "Error: Nginx installation or configuration failed."
-fi
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.html
+service nginx start
