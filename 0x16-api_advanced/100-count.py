@@ -6,7 +6,8 @@ import requests
 def count_words(subreddit, word_list, hot_list=[], after=None):
     """
     Recursive function it will queries the Reddit API
-    Parses the title of all hot articles, and prints a sorted count of given keywords
+    Parses the title of all hot articles, and prints a sorted count
+    of given keywords
     Returns None if no results are found for the given subreddit.
     """
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
