@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Function it will queries the Reddit API 
+Function it will queries the Reddit API
 & prints the titles of the first 10 hot posts
 """
 
