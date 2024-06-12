@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Debugging nginx port 80
+# ../sites-available/default. By creating a symbolic link 
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
